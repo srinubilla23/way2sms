@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Way2Sms">
+	<test name="Send Message">	
+	<parameter name="Browser" value="c" />
+	<parameter name="search" value="https://www.way2sms.com/" />
+	
+		<classes>
+			<class name="sendMessage.ToMobileNo" />
+		</classes>
+	</test>
+</suite>
